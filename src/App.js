@@ -1,8 +1,10 @@
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 
-import DisplayExpenses from "./components/DisplayExpenses/DisplayExpenses";
 
-function App() {
+import DisplayExpenses
+  from "./components/Expenses/DisplayExpenses/DisplayExpenses";
+
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -29,6 +31,10 @@ function App() {
       date: new Date(2021, 2, 28),
     },
   ];
+  // return React.createElement('div', {},
+  //   React.createElement('h2', {}, "Let's get started!")
+  // );
+
   return (
     <div>
       <div className="container">
