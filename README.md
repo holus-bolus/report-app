@@ -1,0 +1,1 @@
+The React project that allows to create reports and charts based on the data from the database. The project is based on the [React](https://reactjs.org/) library and [Material-UI](https://material-ui.com/) components. The project is created with the [create-react-app](     
