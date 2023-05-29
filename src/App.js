@@ -1,8 +1,7 @@
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 
-
-import DisplayExpenses
-  from "./components/Expenses/DisplayExpenses/DisplayExpenses";
+import DisplayExpenses from "./components/Expenses/DisplayExpenses/DisplayExpenses";
+import NewExpense from "./components/NexExpense/NexExpense";
 
 const App = () => {
   const expenses = [
@@ -38,11 +37,11 @@ const App = () => {
   return (
     <div>
       <div className="container">
-        <h2>Let's get started!</h2>
-        <DisplayExpenses items={expenses}/>
+        <NewExpense />
+        <DisplayExpenses items={expenses} />
       </div>
     </div>
   );
-}
+};
 
 export default App;
