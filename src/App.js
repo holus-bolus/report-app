@@ -1,7 +1,7 @@
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 
 import DisplayExpenses from "./components/Expenses/DisplayExpenses/DisplayExpenses";
-import NewExpense from "./components/NexExpense/NexExpense";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
